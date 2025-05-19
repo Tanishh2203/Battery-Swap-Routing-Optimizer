@@ -28,6 +28,25 @@ A greedy heuristic is used:
 - **Minimize Detours**: Greedy selection of nearest station; total detour printed.
 - **Queue ≤ 5**: Timeline ensures no more than 5 riders at any station at any time.
 
+
+## Project Structure
+
+```
+Battert_Swap_Optimizer/
+│
+├── battery.ipynb 
+├── requirements.txt 
+├── map_visualization.html
+├── Map1.png
+├── Map2.png
+├── plan_output.json
+├── riders.json
+└── stations.json
+└── solution.md
+
+```
+
+
 ## Scalability
 
 - **Current**: O(n \* m) complexity (n = 100 riders, m = 3 stations). Suitable for small-scale problems.
